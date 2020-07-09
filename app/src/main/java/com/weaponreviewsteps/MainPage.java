@@ -5,12 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+
 
 public class MainPage extends AppCompatActivity {
 
 
     Button processButton;
+
+
+
 
 
     @Override
@@ -21,6 +27,7 @@ public class MainPage extends AppCompatActivity {
 
         ConfigureStepsButton();
         ConfigureAboutUsButton();
+
     }
 
 
@@ -28,6 +35,8 @@ public class MainPage extends AppCompatActivity {
     private void ConfigureStepsButton(){
 
         processButton = findViewById(R.id.Process1);
+        Animation shake = AnimationUtils.loadAnimation(this, R.anim.shake);
+        processButton.startAnimation(shake);
 
         processButton.setOnClickListener(new View.OnClickListener(){
             @Override

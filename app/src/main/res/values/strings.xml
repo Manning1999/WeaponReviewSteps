@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">WeaponReviewSteps</string>
+    <string name="tab_text_Preliminary"><b>Preliminary </b>\nReqs &amp; Scope </string>
     <string name="tab_text_1"><b>Step 1 </b>\nSpecifics </string>
     <string name="step1_1">"This is a test</string>
 
