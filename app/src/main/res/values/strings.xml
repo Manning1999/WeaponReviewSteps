@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WeaponReviewSteps</string>
+    <string name="tab_text_1"><b>Step 1 </b>\nSpecifics </string>
+    <string name="step1_1">"This is a test</string>
+
+    <string name="tab_text_2"><b>Step 2 </b>\nGeneral</string>
+    <string name="step2_1">"This is also a test</string>
+
+
+    <string name="tab_text_3"><b>Step 3 </b>\nConsiderations</string>
+    <string name="tab_text_4"><b>Step 4 </b>\nReport</string>
+
+
+
+    <!--region About Us -->
+    //About Us
+    //Content
+    <string name="AboutUs">This is the part where the app tells the user a little about what International Weapons Review is all about</string>
+
+    //Website
+    <string name="Website">https://internationalweaponsreview.com/</string>
+
+    //Phone
+    <string name="Phone"></string>
+
+    //Email
+    <string name="Email">Email: enquiry@internationalweaponsreview.com</string>
+    <!--endregion About Us -->
+</resources>
