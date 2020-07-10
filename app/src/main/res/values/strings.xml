@@ -27,4 +27,16 @@
     //Email
     <string name="Email">Email: enquiry@internationalweaponsreview.com</string>
     <!--endregion About Us -->
+
+
+
+
+    //Word definitions
+    <string-array name="Definitions">
+        <item>Keyword:Keyword definition</item>
+        <item>Test3:Test3 definition</item>
+        <item>hide: keywords can also be used in these text boxes</item>
+        <item>object: Test</item>
+
+    </string-array>
 </resources>

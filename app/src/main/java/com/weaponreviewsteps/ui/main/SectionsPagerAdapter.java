@@ -1,6 +1,8 @@
 package com.weaponreviewsteps.ui.main;
 
 import android.content.Context;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -28,14 +30,17 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
+
     }
 
     @Override
     public Fragment getItem(int position) {
+
         switch(position){
             case 0:
                 Preliminary prelim = new Preliminary();
-                        return prelim;
+
+                return prelim;
             case 1:
                 Tab1 tab1 = new Tab1();
                 return tab1;
@@ -52,11 +57,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return null;
 
         }
+
+
     }
 
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
+
+
         return mContext.getResources().getString(TAB_TITLES[position]);
     }
 

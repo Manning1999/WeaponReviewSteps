@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    android:layout_height="match_parent">
 
 
     <TextView
-        android:id="@+id/section_label"
+        android:id="@+id/section_label3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="216dp"
         android:text="National Policy\n New international law prohibitions or restrictions \nMartens clause"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout"
