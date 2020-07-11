@@ -43,6 +43,8 @@
                 android:id="@+id/AboutUs"
                 android:layout_width="match_parent"
                 android:layout_height="124dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
                 android:text="@string/AboutUs" />
 
             <TextView
@@ -50,12 +52,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
                 android:autoLink="email"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
                 android:text="@string/Email" />
 
             <TextView
                 android:id="@+id/Website"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
                 android:text="@string/Website" />
         </LinearLayout>
 
@@ -74,6 +80,8 @@
         android:contentDescription="AboutUsTitle"
         android:text="About Us"
         android:textSize="24sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="133dp" />

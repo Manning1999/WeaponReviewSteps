@@ -9,20 +9,7 @@
    <!--    android:background="@drawable/bookshelf" -->
 
 
-
-        <ImageView
-            android:id="@+id/imageViewOriginal"
-            android:layout_width="409dp"
-            android:layout_height="181dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.6"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/iwr_logo"
-            tools:ignore="MissingConstraints,UnknownId" />
-<!--
+    <!--
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="684dp"
@@ -36,28 +23,54 @@
         app:srcCompat="@drawable/iwr_logo_v2"
         tools:ignore="MissingConstraints,UnknownId" />-->
 
+    <ImageView
+        android:id="@+id/imageViewOriginal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toTopOf="@+id/Process1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/iwr_logo"
+        tools:ignore="MissingConstraints,UnknownId" />
+
     <Button
-            android:id="@+id/Process1"
-            android:layout_width="130dp"
-            android:layout_height="167dp"
-            android:layout_marginStart="140dp"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="356dp"
-            android:background="@drawable/checklist"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/Process1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="208dp"
+        android:background="@drawable/checklist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/AboutUs"
-            android:layout_width="50dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="24dp"
+    <Button
+        android:id="@+id/AboutUs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
 
-            android:layout_marginStart="24dp"
-            android:background="@android:drawable/ic_menu_info_details"
-            android:scaleType="fitXY"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            android:layout_marginLeft="24dp" />
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginRight="337dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/ic_menu_info_details"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
